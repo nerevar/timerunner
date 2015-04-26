@@ -1,9 +1,9 @@
 <ion-view view-title="Time Tracking">
-    <ion-content class="padding">
+    <ion-content class="padding" ng-controller="TimerCtrl">
 
         <div class="row">
             <div class="timer">
-                21:15:03
+                {{currentTime | date:'HH:mm:ss:sss'}}
             </div>
         </div>
 
