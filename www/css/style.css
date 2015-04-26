@@ -1,1 +1,33 @@
 /* Empty. Add your own CSS if you like */
+
+.btn-start,
+.btn-stage
+{
+    border-radius: 25px;
+}
+
+.timer
+{
+    width: 250px;
+    margin: 0 auto;
+
+    font-size: 64px;
+    font-weight: 100;
+    line-height: 1.5em;
+}
+
+.ta-center
+{
+    text-align: center;
+}
+
+.buttons
+{
+    width: 200px;
+    margin: 20px auto 0;
+}
+
+.buttons .button
+{
+    margin: 0 5px;
+}
